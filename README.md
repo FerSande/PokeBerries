@@ -78,9 +78,15 @@ Antes de comenzar, asegúrate de cumplir con los siguientes requisitos:
 - **test**:
   - Para ejecutar los tests hay que ejecutar el sig comando: pytest ./tests/test_endpoints.py
 
+- **Render**
+ - La API se encuentra subida en render, se puede probar usando https://pokeberries-1.onrender.com, o sus respectivos endpoints https://pokeberries-1.onrender.com/allBerryStats y https://pokeberries-1.onrender.com/berryHistogram
+
+- **Streamlit**
+ - Tambien se utilizo streamlit para que quede una aplicacion web mas amigable al usuario y se subio al cloud para poder usarlo remoto, la url es: https://pokeberries-mwyeygnnpqwl2tljfsgrsz.streamlit.app/
+
 ## Esquema de la API
 
-La aplicación tiene varios endpoints que puedes usar para obtener estadísticas sobre las bayas de Pokémon. Algunos de los endpoints clave incluyen:
+La aplicación tiene los siguientes endpoints que puedes usar para obtener estadísticas sobre las bayas de Pokémon:
 
 - **GET `/`**:  
   - **Descripción**: Endpoint de prueba que retorna un mensaje de bienvenida.
