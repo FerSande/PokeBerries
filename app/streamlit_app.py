@@ -5,7 +5,7 @@ import streamlit.components.v1 as components
 st.title("Poke Berries Statistics")
 st.write("Interface to interact with Poke Berries API endpoints")
 
-BASE_URL = "https://pokeberries-1.onrender.com/"
+BASE_URL = "https://pokeberries-1.onrender.com"
 
 response = requests.get(f"{BASE_URL}/")
 if response.status_code == 200:
