@@ -79,10 +79,10 @@ Antes de comenzar, asegúrate de cumplir con los siguientes requisitos:
   - Para ejecutar los tests hay que ejecutar el sig comando: pytest ./tests/test_endpoints.py
 
 - **Render**
- - La API se encuentra subida en render, se puede probar usando https://pokeberries-1.onrender.com, o sus respectivos endpoints https://pokeberries-1.onrender.com/allBerryStats y https://pokeberries-1.onrender.com/berryHistogram
+  - La API se encuentra subida en render, se puede probar usando https://pokeberries-1.onrender.com, o sus respectivos endpoints https://pokeberries-1.onrender.com/allBerryStats y https://pokeberries-1.onrender.com/berryHistogram
 
 - **Streamlit**
- - Tambien se utilizo streamlit para que quede una aplicacion web mas amigable al usuario y se subio al cloud para poder usarlo remoto, la url es: https://pokeberries-mwyeygnnpqwl2tljfsgrsz.streamlit.app/
+  - Tambien se utilizo streamlit para que quede una aplicacion web mas amigable al usuario y se subio al cloud para poder usarlo remoto, la url es: https://pokeberries-mwyeygnnpqwl2tljfsgrsz.streamlit.app/
 
 ## Esquema de la API
 
